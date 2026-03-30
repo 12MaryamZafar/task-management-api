@@ -13,8 +13,4 @@ public class TaskManagementApplication {
         SpringApplication.run(TaskManagementApplication.class, args);
     }
 
-    @GetMapping
-    public String newMessage() {
-        return "Hello cutie you are doing great! don't get distracted.";
     }
-}
